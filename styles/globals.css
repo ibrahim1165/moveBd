@@ -4,6 +4,11 @@
 
 @layer base{
     body{
-        @apply bg-[#06202A] text-gray-300
+        @apply bg-[#000] text-white
     }
 }
+@layer components {
+    .carousel-slider {
+      height: 400px !important;
+    }
+  }

@@ -3,13 +3,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 const HeroSection = () => {
     return (
-        <div>
+        <div className="carousel-slider">
             <Carousel
                 autoPlay
                 infiniteLoop
                 showStatus={false}
                 showIndicators={false}
-                // showThumbs={false}
+                showThumbs={false}
                 interval={5000}
                 className="lg:px-8 lg:mt-8"
             >
