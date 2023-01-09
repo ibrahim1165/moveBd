@@ -10,7 +10,7 @@ export default function Home({results}) {
   return (
     <>
       <Head>
-        <title>Move Site</title>
+        <title>Action Move</title>
         <meta name="description" content="Move Site" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
